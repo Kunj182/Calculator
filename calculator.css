@@ -1,0 +1,65 @@
+table { 
+	width: 650px;
+	height: 550px;
+	margin: 50px;
+    background: black;
+	border: 1px solid black; 
+	margin-left: auto; 
+	margin-right: auto; 
+    border-radius: 20px;
+	padding: 10px;
+} 
+/* td,tr{
+	height: 10%;
+	width: 20%;
+	border-collapse: collapse;
+	padding: 0;
+	margin: 0;
+} */
+input[type="button"] { 
+	margin: 0;
+	background-color: rgb(117, 6, 158); 
+	color: white; 
+	font-size: 24px; 
+	font-weight: bold; 
+	border: none; 
+	border-radius: 5px; 
+	height: 80%;
+	margin-left: 8px;
+	
+} 
+
+input[type="text"] {
+	margin: 0;
+
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+	margin-left: 11px;
+}
+
+input[type="button"] {
+    width: 99%;
+	height: 75%;
+}
+
+input.clearButton {
+	background-color: #ff007f;
+    height: 1%;
+    margin-left: 15px;
+}
+
+input[type="button"][value="/"],
+input[type="button"][value="*"],
+input[type="button"][value="+"],
+input[type="button"][value="-"] {
+    width: 70%;
+	height: 75%;
+}
+
+input[type="button"][value="="] {
+	background-color: #ff007f;
+} 
